@@ -1,0 +1,41 @@
+<html>
+    <head>
+       <meta charset='UTF-8'>
+       <title>Qadesia</title>
+       <link rel='stylesheet' href='style.css'>
+    </head>
+    <body>
+        <div class='crud'>
+            <div class='head'>
+                <h2>Qadesia</h2>
+                <p>PRODUCT MANAGEMENT SYSTEM</p>
+            </div>
+            <div class='inputs'>
+                <input type="text" placeholder="الاسم" id="title">
+                <input  type="number" placeholder="مواليد" id="age">
+                <input  type="text" placeholder="الصفه" id="category">
+                <input type="text" placeholder="ملاحظات" id="nots">
+                <button id="submit">أنشاء</button>
+            </div>
+            <div class='outputs'>
+                <div id="deleteAll">
+                </div>
+                <table>
+                    <tr>
+                        <th>المسلسل</th>
+                        <th>الاسم</th>
+                        <th>مواليد</th>
+                        <th>الصفه</th>
+                        <th>ملاحظات</th>
+                        <th>تعديل</th>
+                        <th>حذف</th>
+                    </tr>
+                    <tbody id="tbody">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+       <script src='main.js'></script>
+    </body>
+</html>
